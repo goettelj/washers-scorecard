@@ -1,0 +1,23 @@
+body {
+	background-color: #34495E;
+}
+
+.main-header h1 {
+	color: white;
+}
+
+.btn.btn-100 {
+	width: 100%;
+}
+
+.btn-toggle {
+	border-color: #cccccc;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.btn-toggle.on {
+	border-color: #e79411;
+	color: #fff;
+	background-color: #f39c12;
+}

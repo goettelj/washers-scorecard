@@ -1,0 +1,14 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	
+<tiles-definitions>
+	
+	<!-- LOGIN LAYOUT -->
+	<definition name="login-layout" template="/WEB-INF/views/layouts/login-layout.jsp" />
+	
+	<!-- DEFAULT LAYOUT -->
+	<definition name="default-layout" template="/WEB-INF/views/layouts/default-layout.jsp" />
+	
+	
+	
+</tiles-definitions>

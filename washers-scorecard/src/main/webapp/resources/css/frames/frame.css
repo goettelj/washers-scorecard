@@ -1,0 +1,78 @@
+.main-header h1 {
+	font-size: 16px;
+	margin: .5em;
+}
+.main-container {
+	padding: 0 0 0 0;
+}
+.team-type {
+	text-align: center;
+}
+.score {
+	text-align: center;
+}
+.home-score, .home-attempts {
+	background-color: #2980b9;
+	color: white;
+}
+.guest-score, .guest-attempts {
+	background-color: #e74c3c;
+	color: white;
+}
+/*************/
+/* SVG STAGE */
+/*************/
+#svg {
+	stroke: black;
+	fill: white;
+	display: block;
+	margin: 0 auto;
+}
+#svgBackground {
+	fill: #16A085;
+}
+.attempt text {
+	stroke: white;
+	fill: white;
+}
+.home-attempt {
+	fill: #2980b9;
+}
+.guest-attempt {
+	fill: #e74c3c;
+}
+/*************/
+
+.frame-number {
+	text-align: center;
+	background-color: #34495e;
+	color: white;
+	font-weight: bold;
+}
+.frame-score-header .score {
+	cursor: pointer;
+}
+.attempts-container {
+	padding: 1em;
+}
+.attempts {
+	display: none;
+	min-height: 80px;
+	width: 100%;
+	padding: 1em;
+}
+.attempts-table {
+	border-collapse: collapse;
+	
+}
+.attempts-table td, .attempts-table th {
+	border: 1px solid #34495e;
+	text-align: center;
+}
+.attempts-table td {
+	padding: 1em;
+}
+.current-attempt {
+	background-color: white;
+	color: black;
+}

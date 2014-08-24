@@ -1,0 +1,21 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	
+<tiles-definitions>
+	
+	<!-- FRAME -->
+	<definition name="frame" extends="default-layout">
+		<put-attribute name="title" value="Frame" cascade="true" />
+		<put-attribute name="content" value="/WEB-INF/views/frames/frame.jsp" />
+		<put-list-attribute name="cssPaths">
+			<add-attribute value="/washers/resources/css/frames/frame.css" />
+		</put-list-attribute>
+		<put-list-attribute name="jsPaths">
+			<add-attribute value="/washers/resources/plugins/d3/d3.min.js" />
+			<add-attribute value="/washers/resources/plugins/jquery-numberformatter/jshashtable-3.0.js" />
+			<add-attribute value="/washers/resources/plugins/jquery-numberformatter/jquery.numberformatter-1.2.4.min.js" />
+			<add-attribute value="/washers/resources/js/frames/frame.js" />
+		</put-list-attribute>
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,27 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	
+<tiles-definitions>
+	
+	<!-- SETUP -->
+	<definition name="game-setup" extends="default-layout">
+		<put-attribute name="title" value="New Game" cascade="true" />
+		<put-attribute name="content" value="/WEB-INF/views/games/game-setup.jsp" />
+		<put-list-attribute name="jsPaths">
+			<add-attribute value="/washers/resources/js/games/game-setup.js" />
+		</put-list-attribute>
+	</definition>
+	
+	<!-- GAME SUMMARY -->
+	<definition name="game-summary" extends="default-layout">
+		<put-attribute name="title" value="Game Summary" cascade="true" />
+		<put-attribute name="content" value="/WEB-INF/views/games/game-summary.jsp" />
+	</definition>
+	
+	<!-- GAME OVER -->
+	<definition name="game-over" extends="default-layout">
+		<put-attribute name="title" value="Game Over" cascade="true" />
+		<put-attribute name="content" value="/WEB-INF/views/games/game-over.jsp" />
+	</definition>
+	
+</tiles-definitions>

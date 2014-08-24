@@ -1,0 +1,15 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+	
+<tiles-definitions>
+	
+	<!-- HOME -->
+	<definition name="home" extends="default-layout">
+		<put-attribute name="title" value="Home" cascade="true" />
+		<put-attribute name="content" value="/WEB-INF/views/home/home.jsp" />
+		<put-list-attribute name="cssPaths">
+			<add-attribute value="/resources/css/home/home.css" />
+		</put-list-attribute>
+	</definition>
+	
+</tiles-definitions>
